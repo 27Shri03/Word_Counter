@@ -36,7 +36,7 @@ function App() {
         {/* <Mainlogic checked={checked} msg={showalert} change={handleswitch} />
       <About/> */}
         <Routes>
-          <Route path="/" element={<Mainlogic checked={checked} msg={showalert} change={handleswitch} />} />
+          <Route path="/home" element={<Mainlogic checked={checked} msg={showalert} change={handleswitch} />} />
           <Route path="/about" element={<About checked={checked}/>} />
         </Routes>
       </Router>
