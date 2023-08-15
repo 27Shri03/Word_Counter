@@ -29,15 +29,14 @@ function App() {
   }
   return (
     <>
-      <Router basename='/Word_counter'>
+      <Router Basename='/Word_counter'>
         <CssBaselines />
         <ResponsiveAppBar checked={checked} change={handleswitch} />
         <Alert_system msg={msg} />
-        {/* <Mainlogic checked={checked} msg={showalert} change={handleswitch} />
-      <About/> */}
+        <Mainlogic checked={checked} msg={showalert} change={handleswitch} />
         <Routes>
-          <Route exact path="/Word_counter" element={<Mainlogic checked={checked} msg={showalert} change={handleswitch} />} />
-          <Route path="/about" element={<About checked={checked}/>} />
+          <Route exact path="/home" element={<Mainlogic checked={checked} msg={showalert} change={handleswitch} />} />
+          <Route path="/about" element={<About checked={checked} />} />
         </Routes>
       </Router>
     </>
