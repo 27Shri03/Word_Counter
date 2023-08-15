@@ -33,9 +33,8 @@ function App() {
         <CssBaselines />
         <ResponsiveAppBar checked={checked} change={handleswitch} />
         <Alert_system msg={msg} />
-        <Mainlogic checked={checked} msg={showalert} change={handleswitch} />
         <Routes>
-          <Route exact path="/" element={<Mainlogic checked={checked} msg={showalert} change={handleswitch} />} />
+          <Route exact path="/Word_counter" element={<Mainlogic checked={checked} msg={showalert} change={handleswitch} />} />
           <Route path="/about" element={<About checked={checked} />} />
         </Routes>
       </Router>
