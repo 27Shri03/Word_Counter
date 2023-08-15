@@ -41,7 +41,7 @@ function ResponsiveAppBar(props) {
                         Word Counter
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                        <Link style={{ margin: 9, color : `${(props.checked) ? 'white' : 'black'}`, display: 'block' , transition : '1s',  textDecoration : 'none'}} to='/home' >
+                        <Link style={{ margin: 9, color : `${(props.checked) ? 'white' : 'black'}`, display: 'block' , transition : '1s',  textDecoration : 'none'}} to='/Word_counter' >
                             Home
                         </Link>
                         <Link style={{ margin: 9 , color : `${(props.checked) ? 'white' : 'black'}`, display: 'block' , transition : '1s' ,  textDecoration : 'none'}} to='/about'>
