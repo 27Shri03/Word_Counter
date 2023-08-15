@@ -29,7 +29,7 @@ function App() {
   }
   return (
     <>
-      <Router>
+      <Router basename='/Word_counter'>
         <CssBaselines />
         <ResponsiveAppBar checked={checked} change={handleswitch} />
         <Alert_system msg={msg} />
